@@ -1,0 +1,87 @@
+<view class="frame">
+  <view class="chang">
+    <view>高/米</view>
+    <input type="digit" bindinput="heightTap" />
+      <view class="nav">
+<view class="url" bindtap="urlTap">➤前往洞口窗</view>
+<navigator  class="url" url="../yangtai/yangtai">➤前往阳台窗</navigator>
+</view>
+  </view>
+
+  <view class="bigImg">
+    <view>{{shan}}</view>
+    <view class="swiper">
+      <swiper current="{{imageIndex}}" bindchange="swiperTap" circular>
+        <block wx:for="{{scrollImg}}" wx:key="*this">
+          <swiper-item>
+            <image src='{{item}}' mode="aspectFit"></image>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+  </view>
+
+  <view class="priceBox">
+    <view class="price">
+      <view>标配价格:</view>
+      <view style="color:#e1251b">{{standardPriceSum}}元</view>
+      <view>升级价格:</view>
+      <view style="color:#e1251b">{{partsPriceSum+parts1PriceSum}}元</view>
+      <view>总价:</view>
+      <view style="color:#e1251b">{{standardPriceSum+partsPriceSum+parts1PriceSum}}元</view>
+    </view>
+  </view>
+</view>
+<view class="kuan">
+  <view>宽/米</view>
+  <input type="digit" bindinput="widthTap" />
+</view>
+<movable-area class="bg">
+<view class="content">
+  <block wx:key="*this" wx:for="{{shuju}}">
+    <view>{{item.title}}</view>
+    <view class="smallImgBox">
+      <view wx:for="{{item.xuanze}}" wx:for-item="itemSub" wx:for-index="indexSub" class="smallImg  {{itemSub.isActive===true?'active':''}}" wx:key="*this" bindtap="imgTap" data-keyID="{{item.keyID}}" data-subID="{{itemSub.subID}}">
+        <view>{{itemSub.title}}</view>
+        <image mode="widthFix" src="{{itemSub.img}}" alt="" />
+      </view>
+    </view>
+  </block>
+  <!-- <block wx:key="*this" wx:for="{{parts}}">
+    <view>{{item.title}}</view>
+    <view class="xuanxiang">
+      <block wx:for="{{item.xuanze}}" wx:for-item="itemSub" wx:for-index="indexSub" wx:key="*this">
+        <view bindtap="wordTap" bindtouchstart="touchStart" bindtouchend="touchChend" data-keyID="{{item.keyID}}" data-subID="{{itemSub.subID}}" class="word {{itemSub.isActive===true?'active':''}}">
+          <image class="{{itemSub.imgVisible===true?'imgVisible':''}}" mode="widthFix" src="{{itemSub.img}}" />
+          {{itemSub.title}}
+        </view>
+      </block>
+    </view>
+  </block>
+  <block wx:key="*this" wx:for="{{parts1}}">
+    <view>{{item.title}}</view>
+    <view class="xuanxiang">
+      <block wx:for="{{item.xuanze}}" wx:for-item="itemSub" wx:for-index="indexSub" wx:key="*this">
+        <view bindtap="parts1Tap" bindtouchstart="touchStart1" bindtouchend="touchChend1" data-keyID="{{item.keyID}}" data-subID="{{itemSub.subID}}" class="word {{itemSub.isActive===true?'active':''}}">
+          <image class="{{itemSub.imgVisible===true?'imgVisible':''}}" mode="widthFix" src="{{itemSub.img}}" />
+          {{itemSub.title}}
+        </view>
+      </block>
+    </view>
+  </block> -->
+
+  <view class="stepper">
+    <text>选择数量:</text>
+    <text bindtap="jian">-</text>
+    <text>{{num}}</text>
+    <text bindtap="jia">+</text>
+  </view>
+</view>
+       <movable-view class='content-block' out-of-bounds direction="all">
+        <widget></widget>
+    </movable-view>
+</movable-area>
+<view class="orderCar">
+  <button class="order" bindtap="dingdanTap">加入订单中心</button>
+  <button bindtap="carTap" class="addCar">购物车</button>
+</view>

@@ -1,0 +1,29 @@
+<view class="bj">
+
+</view>
+<view class="youhuiquan">
+    <view class="quan" wx:for="{{response}}" bindtap="lingquTap" data-index="{{index}}" wx:key="*this" >
+        <view class="price">
+        <text class="price1">{{item.price}}元</text>
+        <text class="price2">购买门窗满{{item.shiyong}}元使用</text>
+        </view>
+        <view  class="lingqu">
+            <view  class="dianji {{item.yanse?'huise':''}}">
+                {{item.lingqu}}
+            </view>
+        </view>
+    </view>
+</view>
+
+<view bindtap="anniuTap" class="anniu">
+    <image mode="widthFix" src="https://6465-dev-xkauj-1302377652.tcb.qcloud.la/image/%E6%9D%82/anniu.png?sign=3ddeb8a77cffefb6105d0244d7e0fde9&t=1593668546" />
+</view>
+
+<view  class="guize">
+    <text class="xiangqing" >活动详情</text>
+    <view class="manjian" >
+        <text >一:领取满减券的用户，可在通过小程序计算出市场标准价格基础上，再减去相应金额。</text>
+        <view class="xian" ></view>
+        <text >二:本公司门窗质量过硬，价格公道透明，欢迎和市场上其他商家比对。</text>
+    </view>
+</view >

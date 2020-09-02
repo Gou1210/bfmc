@@ -1,0 +1,46 @@
+<view class="denglu" bindtap="dengluTap" >
+ <!-- <open-data type="userAvatarUrl"></open-data>
+<open-data type="userNickName"></open-data> -->
+<!-- 需要使用 button 来授权登录 -->
+
+<view class="nameUrl" >
+    <image mode="widthFix" class="avatarUrl" src="{{avatarUrl}}" />
+    <!-- <view class="nickName" >{{nickName}}</view> -->
+</view>
+
+<button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">{{nickName}}</button>
+
+
+</view >
+
+<view  class="kuai" >
+<view  class="kuaixiao" bindtap="carTap" >
+<image mode="widthFix" src="https://6266-bfxy-hpbml-1302612614.tcb.qcloud.la/image/women/car.png?sign=9f221ad51ec7125f567b2d858b240e28&t=1594351769" />
+<text >订单中心</text>
+</view>
+
+<navigator url="../women/women" class="kuaixiao" >
+<image mode="widthFix" src="https://6266-bfxy-hpbml-1302612614.tcb.qcloud.la/image/women/window.png?sign=fa81d7b751b293f3ce62fdba67a0b7c0&t=1594351787" />
+<text >关于我们</text>
+</navigator>
+
+<navigator url="../huodong/huodong" class="kuaixiao" >
+<image mode="widthFix" src="https://6266-bfxy-hpbml-1302612614.tcb.qcloud.la/image/women/youhui.png?sign=c070cd590fe0f391effa30606957d347&t=1594351806" />
+<text >优惠详情</text>
+</navigator>
+
+<navigator url="../dingjin/dingjin" class="kuaixiao" >
+<image mode="widthFix" src="https://6266-bfxy-hpbml-1302612614.tcb.qcloud.la/image/women/xiangzi.png?sign=a36e0c395b718f52d0d7546f6f8616c3&t=1594351818" />
+<text >支付订金</text>
+</navigator>
+
+</view >
+
+<view class="fankui" >
+<view class="dianhua"><text >联系电话:</text><text >13911394971</text></view>
+<view class="dianhua"><text >公司地址:</text><text >回龙观龙锦苑东三区1号楼底商铺42-4精品断桥铝门窗</text></view>
+<view class="dianhua"><text >厂区地址:</text><text >天津市武清工业园36号院</text></view>
+<navigator url="../liuyan/liuyan" class="dianhua"><text >留言反馈:</text><text >→</text></navigator>
+</view>
+
+

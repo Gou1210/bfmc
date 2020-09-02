@@ -1,0 +1,99 @@
+<movable-area class="content-bg">
+    <scroll-view scroll-y class="carBox" wx:if="{{item.length!==0}}">
+        <view class="carItem" wx:for="{{res}}" wx:key="_id">
+            <view class="carImg">
+                <image mode="widthFix" src="{{item.goodsInfo.img}}" />
+            </view>
+            <view class="carWord">
+                <view class="titleDelete" style="font-size:24rpx">
+                    <text class="title">{{item.goodsInfo.title}}</text>
+                    <!-- ({{item.goodsInfo.xilie}}) -->
+                    <text class="delete" bindtap="deleteTap" data-Id="{{item._id}}">删除</text>
+                </view>
+                <view class="tagPrice">
+                    <view class="tagBox">
+                        <view wx:for="{{item.goodsInfo.partsArr}}" wx:for-item="subItem" wx:key="*this" class="tag">
+                            <block wx:if="{{subItem!=null}}">
+                                <txet>{{subItem}}</txet>
+                            </block>
+                        </view>
+                    </view>
+
+                    <view class="price">
+                        <view>
+                            标配价格:
+                            <text>{{item.goodsInfo.standardPriceSum}}</text>
+                        </view>
+                        <view>
+                            升级价格:
+                            <text>{{item.goodsInfo.partsPriceSumCon}}</text>
+                        </view>
+                        <view>
+                            总价:
+                            <text>{{item.goodsInfo.standardParts}}</text>
+                        </view>
+                    </view>
+                </view>
+                <view class="ckStepper">
+                    <view class="carCk">
+                        <text>
+                            面积:{{item.goodsInfo.width0*1+item.goodsInfo.width1*1+item.goodsInfo.width2*1}}X{{item.goodsInfo.height}}={{item.goodsInfo.square}}㎡
+                        </text>
+                    </view>
+                    <view data-index="{{index}}" class="xuanze">
+                        <checkbox-group data-index="{{index}}" bindchange="handeItemChange">
+                            <checkbox checked="{{item.goodsInfo.checked}}"></checkbox>
+                        </checkbox-group>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </scroll-view>
+    <block  wx:if="{{res.length===0}}">
+        <image class="kong" mode="widthFix" src="https://6266-bfxy-hpbml-1302612614.tcb.qcloud.la/image/%E6%9D%82/gouwuche.png?sign=0865ae3bb3c5e9d2ce68b86a1aeaa82f&t=1594351882" />
+    </block>
+    <view class="dibu">
+        <view class="quanxuan">
+            <checkbox-group bindchange="handleItemAllCheck">
+                <checkbox checked="{{allChecked}}">全选</checkbox>
+            </checkbox-group>
+        </view>
+        <view class="middle">
+            <view>
+                总价:
+                <text>{{totalPrice}}</text>
+            </view>
+            <view>
+                优惠:
+                <text>{{juanGai}}</text>
+            </view>
+        </view>
+        <view class="right">
+            <view class="wenzi">
+                <view class="heji">
+                    折后价:
+                    <text style="color:#e1251b">{{totalPrice-juanGai}}</text>
+                </view>
+                <view class="yunfei">(已包含配送安装费用)</view>
+            </view>
+            <button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber" type="primary">
+                <view>提交意向</view>
+                <view>(非支付)</view>
+            </button>
+        </view>
+    </view>
+    <movable-view class='content-block' out-of-bounds direction="all">
+        <!-- <image src='https://6266-bfxy-hpbml-1302612614.tcb.qcloud.la/image/%E6%9D%82/%E7%95%99%E8%A8%80.png?sign=767d74d393f3928d6a403522e0d76d64&t=1594601899' class="imgStyle"></image> -->
+        <widget></widget>
+    </movable-view>
+</movable-area>
+<!-- <view> 
+
+<button open-type="contact" bindcontact="handleContact"> 
+<image src="https://6266-bfxy-hpbml-1302612614.tcb.qcloud.la/image/%E6%9D%82/%E6%88%91%E7%9A%84-%E8%81%94%E7%B3%BB%E5%AE%A2%E6%9C%8D.png?sign=350308e1ef7e7dab97552a1585463954&t=1594534528" class="img-plus-style"></image> 
+</button>
+<view class="" bindtap="imgTap" >
+<image  src="https://6266-bfxy-hpbml-1302612614.tcb.qcloud.la/image/%E6%9D%82/%E7%94%B5%E8%AF%9D.png?sign=19d260fc934956023b621def9c56e8eb&t=1594534544" class="img-plus-style1" bindtap="calling"></image>
+</view>
+
+</view> -->

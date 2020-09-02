@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "钛美合金门",
+  "usingComponents": {
+    "widget": "../../components/widget/widget"
+  }
+}

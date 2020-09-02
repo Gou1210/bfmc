@@ -1,0 +1,13 @@
+.frame{
+    padding: 100rpx;
+    padding-top: 0;
+}
+.siteTime{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    font-size: 16rpx;
+    border-radius: 60rpx;
+    width: 20rpx;
+}

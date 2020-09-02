@@ -1,0 +1,80 @@
+.denglu{
+    width: 100%;
+    height: 300rpx;
+    background-color: #e1251b;
+    display: flex;
+    position: relative;
+    color: #fff;
+}
+
+.nameUrl{
+    position: absolute;
+    top: 60rpx;
+    left: 30rpx;
+
+}
+.avatarUrl{
+    width: 90rpx;
+    height: 90rpx;
+    border-radius: 45rpx;
+}
+.denglu button{
+    position: absolute;
+    top: 60rpx;
+    color: #fff;
+    font-size: 20rpx;
+}
+
+.kuai{
+    display: flex;
+   color: #fff;
+   flex-wrap: wrap;
+   width: 720rpx;
+   margin: 0 auto;
+   margin-top: 80rpx;
+}
+.kuaixiao{
+    width: 47%;
+    height:120rpx;
+    border: #fff 10rpx solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #3fd481;
+}
+
+.kuai image{
+    width: 100rpx;
+}
+
+.fankui{
+    width: 715rpx;
+    margin: 0 auto;
+    margin-top: 40rpx;
+}
+
+.dianhua{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22rpx;
+    margin-bottom: 10rpx;
+    height: 70rpx;
+    background-color: #fff;
+}
+.dianhua text{
+    margin-left: 20rpx;
+    margin-right: 20rpx;
+}
+
+.sc{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.sc  image{
+    width: 200rpx;
+    height: 200rpx;
+    margin-right: 20rpx;
+}

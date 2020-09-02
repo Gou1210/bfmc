@@ -1,0 +1,8 @@
+
+
+<!-- <view class="pageView">
+  <view class="richtextView"> -->
+    <rich-text nodes="{{word}}" bindtap="tap"></rich-text>
+  <!-- </view>
+</view> -->
+

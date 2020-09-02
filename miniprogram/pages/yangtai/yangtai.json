@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "阳台窗",
+  "usingComponents": {
+    "widget": "../../components/widget/widget"
+  }
+}

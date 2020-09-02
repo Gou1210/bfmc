@@ -1,0 +1,201 @@
+.carItem{
+    border: 2rpx solid #666;
+    margin: 10rpx;
+    background-color: #fff;
+    border-radius: 10rpx;
+    display: flex;
+}
+.carBox{
+    height:1000rpx
+}
+.carImg{
+    flex: 2;
+    margin: 10rpx;
+
+}
+.carImg image{
+    width: 150rpx;
+    height: 150rpx;
+    border: 2rpx solid #666;
+}
+
+.carWord{
+    flex: 8;
+    margin: 10rpx;
+    font-size: 22rpx;
+}
+.titleDelete{
+position: relative;
+}
+.title{
+    font-size:28rpx;
+    color:#e1251b;
+
+}
+.delete{
+    width: 80rpx;
+    height: 28rpx;
+    text-align: center;
+    border: 2rpx solid #666;
+    padding: 5rpx 8rpx;
+    border-radius: 10rpx;
+    position: absolute;
+    right: 0;
+}
+.tagPrice{
+    display: flex;
+    margin-top: 20rpx;
+    justify-content: space-between;
+}
+.tagBox{
+    flex: 5;
+    font-size: 18rpx;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    align-content:center;
+}
+.tag {
+    margin-right: 10rpx;
+    margin-top: 10rpx;
+    padding-left: 5rpx;
+    padding-right: 5rpx;
+    border: 2rpx solid #666;
+    height: 30rpx;
+    border-radius: 5rpx;
+
+
+}
+.price{
+    flex: 2;
+    text-align: center;
+    font-weight: 700;
+   
+    width: 300rpx;
+}
+.price text{
+color: #e1251b;
+}
+.ckStepper{
+    display: flex;
+    justify-content:space-between;
+
+}
+.carCk text{
+    font-size: 22rpx;
+    
+}
+.xuanze{
+    margin-top: 20rpx;
+    margin-left: 100rpx;
+}
+.dibu{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 120rpx;
+    display: flex;
+    justify-content: space-between;
+    border: solid 2rpx #666;
+    background-color: #fff;
+    margin-top: 300rpx;
+}
+.quanxuan{
+    margin-top: 20rpx;
+    margin-left: 20rpx;
+    flex: 1;
+}
+.middle{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+    flex: 2;
+}
+.middle text{
+    color: #e1251b;
+}
+.right{
+    display: flex;
+    flex: 4;
+}
+.yunfei{
+    font-size: 24rpx;
+    margin-right: 10rpx;
+    flex: 1;
+}
+.right button{
+    /* background-color: red; */
+    flex: 1;
+    padding-left: 0;
+    padding-right: 0;
+    line-height:inherit;
+    border-radius:5rpx;
+    width: 150rpx;
+    font-size: 26rpx;
+    /* font-size: 26rpx;
+    width: 200rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+.kong{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 150rpx;
+}
+
+
+/* .stepper{
+    font-size: 28rpx;
+    width: 200rpx;
+    margin: 0 auto;
+}
+.stepper text{
+    padding: 2rpx 8rpx 2rpx 8rpx;
+    border: solid 2rpx #666;
+    border-radius: 2rpx;
+} */
+
+
+.img-plus-style { 
+    height: 70rpx; 
+    width: 70rpx; 
+    position: fixed; 
+    bottom: 220rpx; 
+    right: 30rpx; 
+    opacity: 0.7
+   } 
+   .img-plus-style1 { 
+    height: 70rpx; 
+    width: 70rpx; 
+    position: fixed; 
+    bottom: 130rpx; 
+    right: 30rpx; 
+    opacity: 0.7
+   } 
+   .zindex100{z-index: 100}
+   .yc{opacity: 0}
+
+
+   
+.content-bg {
+    /* pointer-events: none; */
+    height: 200%;
+    width: 100%; 
+    /* background-color: #e1251b; */
+    /* position: relative; */
+    /* left: 0rpx;
+    top: 0px; */
+    /* background: #aaa; */
+  }
+   
+  .content-bg>.content-block {
+    /* pointer-events: auto; */
+    /* height: 50px;
+    width: 50px; */
+    /* background:orangered; */ 
+    /* border-radius: 50%;
+    text-align: center;
+    line-height: 50px; */
+  }

@@ -1,0 +1,1 @@
+<rich-text nodes="{{word}}" bindtap="tap"></rich-text>

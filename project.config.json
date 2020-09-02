@@ -1,0 +1,215 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"enhance": true,
+		"postcss": true,
+		"preloadBackgroundData": false,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"nodeModules": false,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"uglifyFileName": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"compileHotReLoad": false,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"useIsolateContext": true,
+		"useCompilerModule": true,
+		"userConfirmedUseCompilerModuleSwitch": false
+	},
+	"appid": "wx33a5e8f9c32dd301",
+	"projectname": "miniprogram-10",
+	"libVersion": "2.8.1",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "tuila",
+					"pathName": "pages/tuila/tuila",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/index/index",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/pingkai/pingkai",
+					"pathName": "pages/pingkai/pingkai",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/index/index",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/car/car",
+					"pathName": "pages/car/car",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/tuila/tuila",
+					"pathName": "pages/tuila/tuila",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/register/register",
+					"pathName": "pages/register/register",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/login/login",
+					"pathName": "pages/login/login",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 9,
+					"name": "pages/anli/anli",
+					"pathName": "pages/anli/anli",
+					"query": "id=0",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/guanyu/guanyu",
+					"pathName": "pages/guanyu/guanyu",
+					"query": "id=0",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/xuzhi/xuzhi",
+					"pathName": "pages/xuzhi/xuzhi",
+					"query": "id=0",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/zhishi/zhishi",
+					"pathName": "pages/zhishi/zhishi",
+					"query": "id=0",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/liuyan/liuyan",
+					"pathName": "pages/liuyan/liuyan",
+					"query": "id=0",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/ceshi/ceshi",
+					"pathName": "pages/ceshi/ceshi",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/huodong/huodong",
+					"pathName": "pages/huodong/huodong",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/women/women",
+					"pathName": "pages/women/women",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/ces/ces",
+					"pathName": "pages/ces/ces",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/dongkou/dongkou",
+					"pathName": "pages/dongkou/dongkou",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/yangtai/yangtai",
+					"pathName": "pages/yangtai/yangtai",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/hejinmen/hejinmen",
+					"pathName": "pages/hejinmen/hejinmen",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/hejinmen/hejinmen",
+					"pathName": "pages/hejinmen/hejinmen",
+					"scene": null
+				}
+			]
+		}
+	}
+}

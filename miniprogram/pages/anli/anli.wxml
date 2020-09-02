@@ -1,0 +1,16 @@
+<!-- <button open-type="openSetting" size="mini" plain type="primary">联系客服</button>
+ -->
+
+
+
+
+<view class="frame" >
+    <text >{{anli.title}}</text>
+    <view class="siteTime" >
+    <text >{{anli.site}}</text>
+    <text >{{anli.time}}</text>
+    </view>
+    <view wx:for="{{anli.img}}">
+        <image mode="widthFix" src="{{item}}" />
+    </view>
+</view>

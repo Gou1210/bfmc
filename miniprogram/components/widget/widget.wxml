@@ -1,0 +1,13 @@
+
+<view>
+        <button open-type="contact" class="contact" animation="{{animWrite}}" bindcontact="handleContact">
+        <image mode="widthFix" src="https://6266-bfxy-hpbml-1302612614.tcb.qcloud.la/image/%E6%9D%82/%E5%AE%A2%E6%9C%8D.png?sign=e48d048a3d4a87da1b8405f328eb3afe&t=1594600169"></image>
+    </button>
+ <!-- <image src="https://6266-bfxy-hpbml-1302612614.tcb.qcloud.la/image/icon/peisongzhong.png?sign=27c29b84d5a9ea9ce40327f601c3c7a2&t=1594371659" class="img-style" animation="{{animCollect}}" bindtap="collect"></image> -->
+ <!-- <image src="https://6266-bfxy-hpbml-1302612614.tcb.qcloud.la/image/icon/peisongzhong.png?sign=27c29b84d5a9ea9ce40327f601c3c7a2&t=1594371659" class="img-style" animation="{{animTranspond}}" bindtap="transpond"></image> -->
+ <image src="https://6266-bfxy-hpbml-1302612614.tcb.qcloud.la/image/%E6%9D%82/%E7%95%99%E8%A8%80.png?sign=767d74d393f3928d6a403522e0d76d64&t=1594601899" class="img-style" animation="{{animInput}}" bindtap="input"></image>
+ <image src="https://6266-bfxy-hpbml-1302612614.tcb.qcloud.la/image/%E6%9D%82/%E7%94%B5%E8%AF%9D.png?sign=4d5ea63397b7250c5fb2f798774b7851&t=1594601278" class="img-style" animation="{{animCloud}}" bindtap="cloud"></image>
+ <image src="https://6266-bfxy-hpbml-1302612614.tcb.qcloud.la/image/%E6%9D%82/%E5%92%A8%E8%AF%A2.png?sign=c219f369adcc68ce220a5bad13d9ed99&t=1594600721" class="img-switch-style" animation="{{animPlus}}" bindtap="plus"></image>
+
+</view>
+

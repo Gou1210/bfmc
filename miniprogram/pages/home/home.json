@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "北方门窗商城",
+  "usingComponents": {
+    "tabs": "../../components/tabs/tabs",
+    "widget": "../../components/widget/widget"
+  }
+}

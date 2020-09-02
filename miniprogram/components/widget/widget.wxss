@@ -1,0 +1,38 @@
+.img-switch-style {
+    height: 120rpx;
+    width: 90rpx;
+    position: absolute;
+    bottom: -400rpx;
+    right: -700rpx;
+    z-index: 100;
+   }
+     
+   .img-style {
+    height: 90rpx;
+    width: 70rpx;
+    position: absolute;
+    bottom: -400rpx;
+    right: -700rpx;
+    opacity: 0;
+   }
+   .contact {
+    height: 120rpx;
+    width: 90rpx;
+    position: absolute;
+    bottom: -400rpx;
+    right: -700rpx;
+    opacity: 0;
+   }
+   .contact image{
+    /* height: 90rpx; */
+    width: 20%;
+    /* position: absolute;
+    bottom: 250rpx;
+    right: 100rpx;
+    opacity: 0; */
+   }
+   button{
+    padding-left: 0;
+    padding-right: 0;
+    line-height:inherit;
+   }

@@ -1,0 +1,129 @@
+
+
+.frame{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    background-color: #fff;
+  }
+  .box{
+    width: 150rpx;
+    height: 100px;
+    border: 1rpx solid #666;
+    border-radius: 20rpx;
+    margin: 10rpx;
+    margin-left: 30rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 22rpx;
+  }
+  .box image{
+    border-radius: 20rpx;
+  }
+  .frame image{
+    width: 140rpx;
+  }
+  
+  .open{
+    font-size: 20rpx;
+  }
+.laba{
+    height: 100rpx;
+    background-color: #fff;
+    font-size: 23rpx;
+    display: flex;
+    align-items: center;
+}
+  .laba image{
+      width: 10%;
+  }
+
+  .women{
+      display: flex;
+      flex-direction: column;
+     align-items: center;
+     margin-top: 20rpx;
+     margin-bottom: 20rpx;
+     background-color: #fff;
+     padding: 20rpx;
+  }
+  .guanyu{
+      margin-bottom: 10rpx;
+      color: cornflowerblue;
+  }
+  .women view{
+      display: flex;
+  }
+  .women view image{
+      flex: 1;
+      margin-right: 10rpx;
+  }
+  .women view text{
+      flex: 2;
+      font-size: 22rpx;
+  }
+
+  .anli{
+      display: flex;
+      font-size: 28rpx;
+      background-color: #fff;
+      margin: 10rpx;
+      border-radius: 20rpx;
+  }
+  .anli image{
+      width: 100rpx;
+      height: 100rpx;
+      border-radius: 20rpx;
+      margin: 20rpx;
+  }
+  .anli view{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rpx;
+  }
+  .anli view view{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: solid #666 2rpx;
+  }
+  .anli text{
+    margin: 10rpx;
+  }
+
+  .hongbao{
+    position: fixed;
+    width: 600rpx;
+    /* display: flex; */
+    /* justify-content: center; */
+    top: 200rpx;
+    left: 50%;
+    margin-left: -250rpx;
+  }
+  .hongbao icon{
+    position: absolute;
+    top: 0rpx;
+    left: 450rpx;
+  }
+  .hongbao .hbImg{
+    border: #666;
+    width: 500rpx;
+    
+  }
+
+  .hbImgNone{
+    display: none;
+  }
+
+  .zizhu{
+
+  }
+
+  .bg {
+    height: 100%;
+    width: 100%; 
+  }

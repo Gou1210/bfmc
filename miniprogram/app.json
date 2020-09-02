@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/car/car",
+    "pages/anli/anli",
+    "pages/guanyu/guanyu",
+    "pages/dingjin/dingjin",
+    "pages/zhishi/zhishi",
+    "pages/liuyan/liuyan",
+    "pages/huodong/huodong",
+    "pages/women/women",
+    "pages/ces/ces",
+    "pages/dongkou/dongkou",
+    "pages/yangtai/yangtai",
+    "pages/hejinmen/hejinmen",
+    "pages/menchuang/menchuang"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "北方兴业",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#2E2E2E",
+    "selectedColor": "#e1251b",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "./images/zhuye.png",
+        "selectedIconPath": "./images/zhuye1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/dongkou/dongkou",
+        "iconPath": "./images/cesuan.png",
+        "selectedIconPath": "./images/cesuan1.png",
+        "text": "测算"
+      },
+      {
+        "pagePath": "pages/car/car",
+        "iconPath": "./images/dingdan.png",
+        "selectedIconPath": "./images/dingdan1.png",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/guanyu/guanyu",
+        "iconPath": "./images/women.png",
+        "selectedIconPath": "./images/women1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "resizable": true,
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

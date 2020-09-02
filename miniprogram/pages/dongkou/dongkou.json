@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "洞口窗",
+  "usingComponents": {
+    "widget": "../../components/widget/widget"
+  }
+}

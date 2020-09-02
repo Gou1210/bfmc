@@ -1,0 +1,14 @@
+<view style="text-align: center;">
+    订金支付渠道
+</view >
+<view  style="text-align: center;">
+    皆为<text style="color: rgb(255, 0, 0);">100元</text>
+</view >
+<view  style="text-align: center;">
+    您也可以通过现场支付给安装师傅
+</view >
+<view  style="text-align: center;">
+    或是微信转账的方式完成支付<br/>
+</view >
+<button type="primary" bindtap='gopay'>支付订金</button>
+

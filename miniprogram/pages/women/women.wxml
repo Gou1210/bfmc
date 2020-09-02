@@ -1,0 +1,41 @@
+<view class="bj">
+<image class="logo" mode="widthFix" src="https://6266-bfxy-hpbml-1302612614.tcb.qcloud.la/image/%E6%9D%82/Snipaste_2020-07-03_10-00-38.jpg?sign=c1f324a94fbe4b2e8ca084a206b1c3d5&t=1594351925" />
+</view>
+<view class="guanyu">
+    -关于我们-
+</view>
+<view class="women">
+北京北方兴业建筑装饰工程有限公司是一家设计、生产、销售、安装、售后服务为一体的专业门窗公司，多年品牌，自有工厂和安装队伍，<text >公司现有业务包括断桥铝门窗，钛镁合金门，塑钢门窗，防盗纱窗，金刚网，护窗护栏等</text>定制生产安装，颜色均可自由搭配，支持定制批发零售，全国物流发货，质量保证，价格合理，断桥铝门窗定做周期10天左右（包括非常规色）。以高品质的门窗回馈每一位客户，让您屋里的每一扇门窗都是让人称赞的亮眼风景线。
+</view>
+<view class="zhanshi">
+<view class="guanyu">
+    -厂区展示-
+</view>
+<scroll-view   scroll-x="true" >
+    <!-- <image  mode="aspectFill" src="{{item}}" /> -->
+    <view class="sc">
+        <block wx:for="{{changqu}}" wx:key="*this">
+            <view >
+                <image  mode="aspectFill" src="{{item}}" />
+            </view>
+        </block>
+    </view>
+</scroll-view>
+</view>
+
+<view class="zhanshi">
+<view class="guanyu">
+    -案例展示-
+</view>
+<scroll-view   scroll-x="true" >
+    <!-- <image  mode="aspectFill" src="{{item}}" /> -->
+    <view class="sc">
+        <block wx:for="{{anli}}" wx:key="*this">
+            <view >
+                <image  mode="aspectFill" src="{{item}}" />
+            </view>
+        </block>
+    </view>
+</scroll-view>
+</view>
+

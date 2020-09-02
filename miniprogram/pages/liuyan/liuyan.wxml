@@ -1,0 +1,69 @@
+<tabs tabs="{{tabs}}"  binditemChange="handleItemChange" >
+
+<block wx:if="{{tabs[0].isActive}}"><view class="fb_main">
+    <view class="fb_title">问题的种类</view>
+    <view class="fb_tips">
+        <text >门窗相关问题</text>
+        <text >现场实景照片</text>
+        <text >其他</text>
+
+    </view>
+    <view class="fb_content">
+        <textarea value="{{textVal}}" bindinput="handleTextInput" placeholder="请输入问题描述"  ></textarea>
+        <view class="fb_tool">
+            <button bindtap="handleChooseImg">+</button>
+
+          <view class="up_img_item"
+          wx:for="{{chooseImgs}}"
+          wx:key="*this"
+          bindtap="handleRemoveImg"
+          data-index="{{index}}"
+          >
+          <upimg url="{{item}}"  ></upimg>
+        </view>
+        </view>
+    </view>
+            <view class="form_btn_wrap">
+                <button bindtap="handleFormSubmit" type="primary">
+                    <!-- <icon type="success_no_circle" size="23" color="white"></icon> -->
+                    提交
+                </button>
+            </view>
+</view>
+</block>
+
+<block wx:elif="{{tabs[1].isActive}}">
+<view class="fb_main">
+    <view class="fb_title">问题的种类</view>
+    <view class="fb_tips">
+        <text >程序操作问题</text>
+        <text >bug反馈</text>
+        <text >其他</text>
+
+    </view>
+    <view class="fb_content">
+        <textarea value="{{textVal}}" bindinput="handleTextInput" placeholder="请输入问题描述"  ></textarea>
+        <view class="fb_tool">
+            <button bindtap="handleChooseImg">+</button>
+
+          <view class="up_img_item"
+          wx:for="{{chooseImgs}}"
+          wx:key="*this"
+          bindtap="handleRemoveImg"
+          data-index="{{index}}"
+          >
+          <upimg url="{{item}}"  ></upimg>
+        </view>
+        </view>
+    </view>
+            <view class="form_btn_wrap">
+                <button bindtap="handleFormSubmit" type="primary">
+                    <!-- <icon type="success_no_circle" size="23" color="white"></icon> -->
+                    提交
+                </button>
+            </view>
+</view>
+</block>
+
+ 
+</tabs>
